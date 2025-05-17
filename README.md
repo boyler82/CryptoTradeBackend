@@ -1,27 +1,21 @@
-# CryptoTradeBackend
-CryptTrade to aplikacja do śledzenia inwestycji kryptowalutowych, stworzona w ramach projektu końcowego na bootcampie Kodilla. Umożliwia m.in. zakup/sprzedaż kryptowalut, notatki użytkownika, analizę historyczną oraz ustawienia powiadomień.
+# 💹 CryptoTrade Backend
 
-## 🔧 Technologie
+Spring Boot REST API for managing cryptocurrency portfolios, user accounts, holdings, trading, price tracking, notifications, and more.
 
-- 🟨 Java 17 + Spring Boot
-- 🐘 MySQL + JPA
-- 📦 REST API (25+ endpointów)
-- 🌐 Vaadin + React Frontend
-- 🧪 JUnit + Mockito
-- 📡 CoinGecko API + Currency API
-- 🔁 Cron scheduler
+🔗 Frontend Repository: [CryptoTradeFrontend](https://github.com/boyler82/CryptoTradeFrontend)
 
-## ✨ Funkcje
+---
 
-- Rejestracja i logowanie użytkowników
-- Obsługa portfela i balansu
-- Zakup i sprzedaż kryptowalut (dynamiczne ceny)
-- Historia logowania
-- System notatek
-- Dashboard + ciemny motyw 🌙
+## 🚀 How to Run the Application
 
-Link backend:
-https://github.com/boyler82/CryptoTradeBackend
+### 🛠 Requirements
 
-Link frontend:
-https://github.com/boyler82/CryptoTradeFrontend
+- Java 17+
+- Gradle
+- MySQL (or other DB configured in `application.properties`)
+- IDE (IntelliJ recommended)
+
+### ▶️ Run
+
+```bash
+./gradlew bootRun
