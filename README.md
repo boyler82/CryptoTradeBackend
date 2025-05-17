@@ -19,3 +19,9 @@ CryptTrade to aplikacja do śledzenia inwestycji kryptowalutowych, stworzona w r
 - Historia logowania
 - System notatek
 - Dashboard + ciemny motyw 🌙
+
+Link backend:
+https://github.com/boyler82/CryptoTradeBackend
+
+Link frontend:
+https://github.com/boyler82/CryptoTradeFrontend
